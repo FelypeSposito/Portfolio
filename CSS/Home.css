@@ -1,0 +1,419 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linefont:wght@4..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linefont:wght@4..1000&family=Orienta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: quattrocento;
+}
+
+.topo nav{
+    height: 6vh;
+    background-image: radial-gradient( #D7D7D9, #f8f8fb);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
+    align-items: center;
+    border-top: #164038 3px solid;
+}
+
+.topo nav a{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'orienta';
+    text-shadow: white 1px 1px 1px;
+    text-decoration: none;
+}
+
+.divisoria{
+    border: 1px solid #062626;
+}
+
+.linka{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.linkb{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.linkc{
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.container{
+    height: 100vh;
+    background-image: linear-gradient(to top right,#071917, #062626 ,#164038);
+    display: grid;
+    grid-template-rows: 5% 15% 60% 15% 5%;
+    grid-template-columns: 2.5% 30% 5% 60% 2.5%;
+    flex-wrap: wrap;
+}
+
+.fundoesquerdo{
+    background-color: #d7d7d9;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    border-radius: 5%;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 10% 60% 10%;
+    border: 3px solid #0e2323;
+    box-shadow: #d7d7d9 -3px 3px;
+    flex-wrap: nowrap;
+    
+}
+
+.tituloprincipal{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    font-family: 'orienta';
+    font-size: 190%;
+    text-shadow: white 2px 1px 1px;
+   
+}   
+
+.minhafoto{
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  width: 90%;
+  height: 80%;
+  justify-self: center;
+}
+
+.fundodireito{
+    background-color: #D7D7D9;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-radius: 4%;
+    border: 3px solid #062626;
+    box-shadow: #D7D7D9 5px 5px 0px;
+}
+
+.fundodireito h2{
+    margin-top: 5%;
+    font-size: 200%;
+}
+
+
+
+.bemvindo{
+    font-family: orienta;
+    text-shadow: white 2px 1px 1px;
+}
+
+.textobemvindo{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+}
+
+ul{
+    margin-left: 5%;
+    margin-top: 2%;
+    line-height: 150%;
+}
+
+
+.fundodireito ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+.divisoria2{
+    height: 5px;
+    background-image: linear-gradient(#062626, #D7D7D9);
+}
+
+.containersub1{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 5% 90% 5%;
+    background-image: linear-gradient(#D7D7D9, #ada7a7);
+}
+
+.fundosub1{
+    
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border-radius: 4%;
+    border: 3px solid #0e1e13;
+    background-image: linear-gradient(to bottom left, #164038, #062626, #071917);
+    box-shadow: #062626 2px 2px;
+
+}
+
+.fundosub1 h2{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    font-family: 'orienta';
+    color: #D7D7D9;
+    text-shadow: black 2px 1px 1px;
+}
+
+.fundosub1 p{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #D7D7D9;
+    margin-bottom: 3%;
+
+}
+
+.linkplovooo{
+
+    text-decoration: none;
+    color: rgb(163, 252, 205);
+}
+
+.divisoria3{
+    background-image: linear-gradient(#505050, #164038 );
+    height: 5px;
+}
+
+.containerfooter{
+    height: 30vh;
+    display: grid;
+    grid-template-columns:7.5% 10% 15% 10% 15% 10% 15% 10% 7.5%;
+    grid-template-rows: 30% 20% 20% 30%;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(#082b25, #071917, #031613);
+}
+
+.containerfooter a{
+font-size: 22px;
+font-family: 'quattrocento';
+}
+
+.imga{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+.imgb{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: center;
+   
+}
+
+.imgc{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: center;
+}
+.imgd{
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.gitlink{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    color: rgb(80, 80, 157);
+    justify-self: center;
+    align-self: center;
+    text-shadow: rgb(24, 22, 22) -1px 1px;
+}
+
+.emaillink{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    color: silver;
+    justify-self: center;
+    align-self: center;
+    text-shadow: black 1px 1px
+}
+
+.instalink{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    color: rgb(250, 121, 0);
+    justify-self: center;
+    align-self: center;
+    text-shadow: rgb(11, 13, 20) 1px 1px;
+}
+.whatslink{
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 3; 
+    color: green;
+    justify-self: center;
+    align-self: center;
+    text-shadow: black 1px 1px;
+}
+
+@media screen and (max-width: 800px) {
+    .topo nav{
+        background-color: #5b2828;
+        height: 8vh;
+        text-decoration: underline;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .container{
+        grid-template-columns: 5% 80% 5%;
+        grid-template-rows: 5% 10% 5% 10% 10% 10% 20% 10% 10%;
+        height: 150vh;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fundoesquerdo{grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start:2;
+        grid-row-end: 6;
+        height: 100%;
+        width: 100%;
+        justify-self: center
+    }
+
+    @media screen and (max-width: 800px){
+        .minhafoto{
+            height: 110%;
+            width: 70%;
+            align-self: center;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .tituloprincipal{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            padding-top: 15%;
+        }
+        
+    }
+
+    @media screen and (max-width: 800px) {
+        .fundodireito{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 7;
+            grid-row-end: 10;
+            height: 110%;
+        }
+}
+
+@media screen and (max-width: 800px) {
+   .fundodireito h2{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   }
+}
+
+@media screen and (max-width: 800px) {
+    .fundodireito p{
+        margin-top: 10%;
+        margin-bottom: 8%
+    }
+    }
+
+    @media screen and (max-width:800px) {
+        .fundodireito ul{
+            margin-left: 10%
+        }
+        
+    }
+
+
+    
+  @media screen and (max-width:800px){
+    .containersub1{
+        height: 120vh;
+    }
+    }
+
+  @media screen and (max-width:800px){
+    .fundosub1{
+        height: 90%;
+
+    }
+    
+  }
+
+
+  @media screen and (max-width:800px) {
+    .fundosub1 h2{
+        font-size: 20px
+        
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .fundosub1 p{
+        font-size: 14px;
+        margin-bottom: 6%
+        
+    }
+  }
+
+
+
+  @media screen and (max-width:800px) {
+  footer .containerfooter img, a{
+        width: 85%;
+    }
+    
+  }
+
+  @media screen and (max-width:800px) {
+    footer .containerfooter a{
+          font-size: 16px;
+
+    }
+}
+
