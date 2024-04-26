@@ -189,13 +189,14 @@ ul{
 
 }
 
-.fundosub1 .prevola{
-    font-size: 80%;
+.fundosub1 .prevola, li{
+    font-size: 89.45%;
     margin-left: 0;
 }
 
 .fundosub1 li{
     color: white;
+    
 }
 
 .plovotexto{
@@ -430,6 +431,14 @@ font-family: 'quattrocento';
     }
   }
 
+
+  
+  @media screen and (max-width:800px) {
+    footer .containerfooter{
+          height: 15vh;
+      }
+      
+    }
 
 
 
