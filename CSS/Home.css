@@ -21,7 +21,7 @@
 
 .topo nav a{
     color: #000000;
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'orienta';
     text-shadow: white 1px 1px 1px;
     text-decoration: none;
@@ -90,8 +90,8 @@
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 3;
-  width: 90%;
-  height: 80%;
+  width: 100%;
+  height: 90%;
   justify-self: center;
 }
 
@@ -122,20 +122,21 @@
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 18px;
+    font-size: 150%;
 }
 
 ul{
     margin-left: 5%;
     margin-top: 2%;
-    line-height: 150%;
+    line-height: 120%;
+    font-size: 150%;
 }
 
 
 .fundodireito ul li a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 80%;
 }
 
 
@@ -162,6 +163,7 @@ ul{
     border: 3px solid #0e1e13;
     background-image: linear-gradient(to bottom left, #164038, #062626, #071917);
     box-shadow: #062626 2px 2px;
+    height: 101%;
 
 }
 
@@ -173,6 +175,8 @@ ul{
     font-family: 'orienta';
     color: #D7D7D9;
     text-shadow: black 2px 1px 1px;
+    font-size: 150%;
+    
 }
 
 .fundosub1 p{
@@ -180,11 +184,26 @@ ul{
     margin-left: 4%;
     margin-right: 4%;
     color: #D7D7D9;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
+    font-size: 120%;
 
 }
 
-.linkplovooo{
+.fundosub1 .prevola{
+    font-size: 80%;
+    margin-left: 0;
+}
+
+.fundosub1 li{
+    color: white;
+}
+
+.plovotexto{
+    color: white;
+    font-size: 80%;
+}
+
+.linkplovooo, a{
 
     text-decoration: none;
     color: rgb(163, 252, 205);
@@ -198,7 +217,7 @@ ul{
 .containerfooter{
     height: 30vh;
     display: grid;
-    grid-template-columns:5% 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+    grid-template-columns: 0.5% 33% 33% 33% 0.5%;
     grid-template-rows: 30% 20% 20% 30%;
     justify-items: center;
     align-items: center;
@@ -220,8 +239,8 @@ font-family: 'quattrocento';
 }
 
 .imgb{
-    grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 2;
     justify-self: center;
@@ -230,32 +249,13 @@ font-family: 'quattrocento';
 }
 
 .imgc{
-    grid-column-start: 6;
-    grid-column-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
     justify-self: center;
     align-self: center;
 }
-.imgd{
-    grid-column-start: 8;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    justify-self: center;
-    align-self: center;
-}
-
-.imge{
-    grid-column-start: 10;
-    grid-column-end: 11;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    justify-self: center;
-    align-self: center;
-
-}
-
 
 .gitlink{
     grid-column-start: 2;
@@ -269,8 +269,8 @@ font-family: 'quattrocento';
 }
 
 .emaillink{
-    grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 3;
     color: silver;
@@ -279,30 +279,10 @@ font-family: 'quattrocento';
     text-shadow: black 1px 1px
 }
 
-.instalink{
-    grid-column-start: 6;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 3;
-    color: rgb(250, 121, 0);
-    justify-self: center;
-    align-self: center;
-    text-shadow: rgb(11, 13, 20) 1px 1px;
-}
-.whatslink{
-    grid-column-start: 8;
-    grid-column-end: 8;
-    grid-row-start: 3;
-    grid-row-end: 3; 
-    color: green;
-    justify-self: center;
-    align-self: center;
-    text-shadow: black 1px 1px;
-}
 
 .linklink{
-    grid-column-start: 10;
-    grid-column-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 3;
     justify-self: center;
@@ -316,6 +296,13 @@ font-family: 'quattrocento';
         background-color: #5b2828;
         height: 8vh;
         text-decoration: underline;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .topo nav a{
+        font-size: 16px;
     }
 }
 
@@ -354,9 +341,20 @@ font-family: 'quattrocento';
             grid-column-start: 2;
             grid-column-end: 2;
             padding-top: 15%;
+            font-size: 25px;
         }
         
     }
+
+
+    @media screen and (max-width: 800px) {
+        .minhafoto{
+            width: 100%;
+        }
+        
+    }
+
+
 
     @media screen and (max-width: 800px) {
         .fundodireito{
@@ -379,7 +377,8 @@ font-family: 'quattrocento';
 @media screen and (max-width: 800px) {
     .fundodireito p{
         margin-top: 10%;
-        margin-bottom: 8%
+        margin-bottom: 8%;
+        font-size: 115%;
     }
     }
 
@@ -394,13 +393,13 @@ font-family: 'quattrocento';
     
   @media screen and (max-width:800px){
     .containersub1{
-        height: 120vh;
+        height: 110vh;
     }
     }
 
   @media screen and (max-width:800px){
     .fundosub1{
-        height: 90%;
+        height: 100%;
 
     }
     
@@ -416,11 +415,21 @@ font-family: 'quattrocento';
 
   @media screen and (max-width:800px) {
     .fundosub1 p{
-        font-size: 14px;
+        font-size: 80%;
         margin-bottom: 6%
         
     }
   }
+
+
+  @media screen and (max-width:800px) {
+    .fundosub1 .prevola, .plovotexto{
+        font-size: 50%;
+        line-height: normal;
+        
+    }
+  }
+
 
 
 
@@ -438,3 +447,47 @@ font-family: 'quattrocento';
     }
 }
 
+@media screen and (max-width:800px) {
+    .imga{
+          width: 40%;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .imgb{
+          width: 40%;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .imgc{
+          width: 40%;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .gitlink{
+          justify-self: center;
+          align-self: center;
+          opacity: 0%;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .emaillink{
+          font-size: 0px;
+          opacity: 0%;
+
+    }
+}
+
+@media screen and (max-width:800px) {
+    .linklink{
+          opacity: 0%;
+
+    }
+}
